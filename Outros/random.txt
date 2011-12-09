@@ -1,0 +1,31 @@
+procedure SORTEIO_MINA( M:integer ; N:integer;QTD:integer; var MATRIZ:MATRIZB );
+
+var k:integer;
+var a, b:integer;
+
+begin
+  for a := 1 to M do begin
+      for b := 1 to N do begin
+          MATRIZ[a,b].MINA:=0;
+      end;
+  end;
+  K:=0;
+  randomize;
+  repeat
+     a:=0;
+     repeat
+       b:=0;
+       a:=a+1;
+       repeat
+          b:=b+1;
+          if MATRIZ[a,b].MINA<>1 then MATRIZ[a,b].MINA:=random(10);
+          if MATRIZ[a,b].MINA = 1 then K:=K+1;
+       until (B=N) or (K=QTD);
+     until (a=M) or (K=QTD);
+  until K=QTD;
+  for a := 1 to M do begin
+      for b := 1 to N do begin
+          if MATRIZ[a,b].MINA<>1 then MATRIZ[a,b].MINA:=0;
+      end;
+  end;
+end;
