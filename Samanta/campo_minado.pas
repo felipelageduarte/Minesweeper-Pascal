@@ -1,10 +1,16 @@
+{
+********************************************************************************
+*                CAMPO MINADO - ICMC/USP - JUNHO/2008                          *
+*                                                                              *
+* Autor: Felipe S. L. G. Duarte - <felipelageduarte at gmail dot com>          *
+*                                                                              *
+* This work is licensed under the Creative Commons Attribution-ShareAlike 3.0  *
+*        Unported License. To view a copy of this license, visit               *
+*           http://creativecommons.org/licenses/by-sa/3.0/.                    *
+********************************************************************************
+}
+
 program CAMPO_MINADO;
- {Autora: Samanta Sayuri Kido - n USP 6427188 - mail:sakido@icmc.usp.br-
- Curso: Bacharelado em ciencia da computacao; ICMC-Sao CArlos.
-  Programa CAMPO MINADO consiste num jogo de estrategia , cujo objetivo ‚
-  desvendar um campo contendo minas ocultas em que qualquer uma delas seja
-  detonada.
-  }
 
 uses crt;
 
